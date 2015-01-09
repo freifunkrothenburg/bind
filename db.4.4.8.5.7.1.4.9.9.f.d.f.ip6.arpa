@@ -1,0 +1,16 @@
+;; db.4.4.8.5.7.1.4.9.9.f.d.f.ip6.arpa
+;; IPv6 reverse lookup zone for ffr
+;;
+$TTL 2D
+$ORIGIN 4.4.8.5.7.1.4.9.9.f.d.f.ip6.arpa.
+@	                           IN      SOA     ffr. root.ffr. (
+                                                           201501031300      ; Serial
+                                                                   8H      ; Refresh
+                                                                   2H      ; Retry
+                                                                   4W      ; Expire
+                                                                   2D )    ; TTL Negative Cache
+@	                           NS      ns.ffr.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0    PTR     nextnode.ffr.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0    PTR     gw01.ffr.
+3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	   PTR     gw02.ffr.
