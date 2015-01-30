@@ -11,7 +11,7 @@ $TTL 2D
 
 @       IN      NS      ns.ffr.
 
-1.0     IN      PTR     nextnode.ffr.
-2.0     IN      PTR     gw01.ffr.
-3.0     IN      PTR     gw02.ffr.
-4.0	IN	PTR	patrik.ffr.
+1.0    	 IN      PTR     nextnode.ffr.
+2.0    	 IN      PTR     gw01.ffr.
+128.2    IN      PTR     gw02.ffr.
+200.100	 IN	 PTR	 patrik.ffr.

@@ -1,4 +1,4 @@
-;; db.ffR
+; db.ffR
 ;; Forward lookup zone for ffr
 ;;
 $TTL 2D
@@ -40,7 +40,7 @@ updates	                        IN      A       10.67.0.3
                                 IN      AAAA    fdf9:9417:5844::2
 
 ;; Client config
-patrik				IN	A	10.67.1.100
+patrik				IN	A	10.67.200.100
 
 ;; Router
 stammtisch			IN	AAAA	fe80::eade:27ff:feb7:50c6
